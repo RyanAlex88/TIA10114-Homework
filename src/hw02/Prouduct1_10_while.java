@@ -1,16 +1,17 @@
-package hw2;
+package hw02;
 
-public class Product1_10_for {
+public class Prouduct1_10_while {
 	
 	public static void main(String[] args) {
 		
 		int prout = 1;
-		for (int i = 1;i <= 10;i++) {
-			prout = prout * i;
+		int i = 1;
+		while(i <= 10) {
+			prout *= i;
+			i++;
+			
 		}
 		System.out.println("連積為" + prout);
-		
-		
 	}
 
 }

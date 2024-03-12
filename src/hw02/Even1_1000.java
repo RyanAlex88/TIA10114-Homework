@@ -1,4 +1,4 @@
-package hw2;
+package hw02;
 
 public class Even1_1000 {
 	
